@@ -1,0 +1,16 @@
+D:\Brize\github\LineComparisonProblem\LineComparison\bin\Debug\net5.0\LineComparison.exe
+D:\Brize\github\LineComparisonProblem\LineComparison\bin\Debug\net5.0\LineComparison.deps.json
+D:\Brize\github\LineComparisonProblem\LineComparison\bin\Debug\net5.0\LineComparison.runtimeconfig.json
+D:\Brize\github\LineComparisonProblem\LineComparison\bin\Debug\net5.0\LineComparison.runtimeconfig.dev.json
+D:\Brize\github\LineComparisonProblem\LineComparison\bin\Debug\net5.0\LineComparison.dll
+D:\Brize\github\LineComparisonProblem\LineComparison\bin\Debug\net5.0\ref\LineComparison.dll
+D:\Brize\github\LineComparisonProblem\LineComparison\bin\Debug\net5.0\LineComparison.pdb
+D:\Brize\github\LineComparisonProblem\LineComparison\obj\Debug\net5.0\LineComparison.csproj.AssemblyReference.cache
+D:\Brize\github\LineComparisonProblem\LineComparison\obj\Debug\net5.0\LineComparison.GeneratedMSBuildEditorConfig.editorconfig
+D:\Brize\github\LineComparisonProblem\LineComparison\obj\Debug\net5.0\LineComparison.AssemblyInfoInputs.cache
+D:\Brize\github\LineComparisonProblem\LineComparison\obj\Debug\net5.0\LineComparison.AssemblyInfo.cs
+D:\Brize\github\LineComparisonProblem\LineComparison\obj\Debug\net5.0\LineComparison.csproj.CoreCompileInputs.cache
+D:\Brize\github\LineComparisonProblem\LineComparison\obj\Debug\net5.0\LineComparison.dll
+D:\Brize\github\LineComparisonProblem\LineComparison\obj\Debug\net5.0\ref\LineComparison.dll
+D:\Brize\github\LineComparisonProblem\LineComparison\obj\Debug\net5.0\LineComparison.pdb
+D:\Brize\github\LineComparisonProblem\LineComparison\obj\Debug\net5.0\LineComparison.genruntimeconfig.cache
