@@ -6,7 +6,7 @@ namespace LineComparison
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("Please Enter the Values of X1,X2,Y1,Y2");
+            Console.WriteLine("Please Enter the Values of X1,X2,Y1,Y2 of the First Line");
             double x1 = Console.Read();
             double x2 = Console.Read();
             double y1 = Console.Read();
@@ -18,6 +18,7 @@ namespace LineComparison
             double LengthSq = PowX + PowY;
             double LengthofLine = Math.Sqrt(LengthSq);
             Console.WriteLine("Lengthof Line"+ LengthofLine);
+            Console.WriteLine("Please Enter the Values of X1,X2,Y1,Y2 of the Second Line");
             double x12 = Console.Read();
             double x22 = Console.Read();
             double y12 = Console.Read();
@@ -29,10 +30,16 @@ namespace LineComparison
             double LengthSq2 = PowX2 + PowY2;
             double LengthofLine2 = Math.Sqrt(LengthSq2);
             Console.WriteLine("Lengthof Line" + LengthofLine2);
-            if(LengthofLine==LengthofLine2)
+            if (LengthofLine < LengthofLine2)
             {
-                Console.WriteLine("Both the Lines are Equal");
+                Console.WriteLine("First Line is Smaller");
             }
+            else if (LengthofLine > LengthofLine2)
+            {
+                Console.WriteLine("Second Line is Smaller");
+            }
+            else
+                Console.WriteLine("Both the Lines are Equal");
         }
     }
 }
