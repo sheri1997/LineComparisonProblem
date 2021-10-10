@@ -4,7 +4,7 @@ namespace LineComparison
 {
     class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
             Console.WriteLine("Please Enter the Values of X1,X2,Y1,Y2");
             double x1 = Console.Read();
@@ -12,12 +12,27 @@ namespace LineComparison
             double y1 = Console.Read();
             double y2 = Console.Read();
             double LengthofX = (x2 - x1);
-            double LengthofY = (y2 = y1);
+            double LengthofY = (y2 - y1);
             double PowX = Math.Pow(LengthofX, 2);
             double PowY = Math.Pow(LengthofY, 2);
             double LengthSq = PowX + PowY;
             double LengthofLine = Math.Sqrt(LengthSq);
-            Console.WriteLine("Length of Line=" + LengthofLine);
+            Console.WriteLine("Lengthof Line"+ LengthofLine);
+            double x12 = Console.Read();
+            double x22 = Console.Read();
+            double y12 = Console.Read();
+            double y22 = Console.Read();
+            double LengthofX2 = (x22 - x12);
+            double LengthofY2 = (y22 - y12);
+            double PowX2 = Math.Pow(LengthofX2, 2);
+            double PowY2 = Math.Pow(LengthofY2, 2);
+            double LengthSq2 = PowX2 + PowY2;
+            double LengthofLine2 = Math.Sqrt(LengthSq2);
+            Console.WriteLine("Lengthof Line" + LengthofLine2);
+            if(LengthofLine==LengthofLine2)
+            {
+                Console.WriteLine("Both the Lines are Equal");
+            }
         }
     }
 }
